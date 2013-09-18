@@ -4,4 +4,8 @@
         >= folder_max_num_items. When these are set to -1, they are automatically determined. -->
     <integer name="folder_max_count_x">8</integer>
     <integer name="folder_max_count_y">5</integer>
+    
+    <integer name="cell_count_x">8</integer>
+    <integer name="cell_count_y">4</integer>
+    
 </resources>

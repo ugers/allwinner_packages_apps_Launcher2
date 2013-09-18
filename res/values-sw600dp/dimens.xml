@@ -15,8 +15,8 @@
 -->
 
 <resources>
-    <dimen name="app_icon_size">64dp</dimen>
-    <dimen name="reveal_radius">64dp</dimen>
+    <dimen name="app_icon_size">70dp</dimen>
+    <dimen name="reveal_radius">70dp</dimen>
     <dimen name="app_icon_drawable_padding">3dp</dimen>
     <dimen name="app_icon_padding_top">4dp</dimen>
 
@@ -27,19 +27,19 @@
     <dimen name="qsb_padding_left">16dp</dimen>
     <dimen name="qsb_padding_right">16dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_height">50dp</dimen>
 
 <!-- Hotseat -->
-    <dimen name="hotseat_cell_width">70dp</dimen>
+    <dimen name="hotseat_cell_width">110dp</dimen>
     <dimen name="hotseat_cell_height">70dp</dimen>
     <dimen name="hotseat_width_gap">-1dp</dimen>
     <dimen name="hotseat_height_gap">-1dp</dimen>
     <dimen name="button_bar_height">94dip</dimen>
     <dimen name="button_bar_height_bottom_padding">14dp</dimen>
-    <dimen name="button_bar_height_top_padding">20dp</dimen>
+    <dimen name="button_bar_height_top_padding">5dp</dimen>
     <dimen name="button_bar_width_left_padding">25dp</dimen>
     <dimen name="button_bar_width_right_padding">25dp</dimen>
-    <dimen name="button_bar_height_plus_padding">104dp</dimen>
+    <dimen name="button_bar_height_plus_padding">70dp</dimen>
 
 <!-- Folders -->
     <!-- The size of the image which sits behind the preview of the folder contents -->
@@ -70,7 +70,7 @@
 <!-- Workspace cell size -->
     <dimen name="workspace_cell_width_land">88dp</dimen>
     <dimen name="workspace_cell_width_port">96dp</dimen>
-    <dimen name="workspace_cell_height_land">88dp</dimen>
+    <dimen name="workspace_cell_height_land">107dp</dimen>
     <dimen name="workspace_cell_height_port">96dp</dimen>
     <dimen name="workspace_width_gap_land">32dp</dimen>
     <dimen name="workspace_width_gap_port">0dp</dimen>

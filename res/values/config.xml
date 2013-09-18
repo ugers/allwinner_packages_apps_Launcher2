@@ -8,21 +8,21 @@
 
 <!-- AllApps/Customize/AppsCustomize -->
     <!-- The alpha of the AppsCustomize bg in spring loaded mode -->
-    <integer name="config_appsCustomizeSpringLoadedBgAlpha">45</integer>
-    <integer name="config_workspaceUnshrinkTime">300</integer>
+    <integer name="config_appsCustomizeSpringLoadedBgAlpha">4</integer>
+    <integer name="config_workspaceUnshrinkTime">30</integer>
     <!-- Out of 100, the percent to shrink the workspace during spring loaded mode. -->
-    <integer name="config_workspaceSpringLoadShrinkPercentage">80</integer>
+    <integer name="config_workspaceSpringLoadShrinkPercentage">8</integer>
 
     <!-- Fade/zoom in/out duration & scale in the AllApps transition.
          Note: This should be less than the workspaceShrinkTime as they happen together. -->
-    <integer name="config_appsCustomizeZoomInTime">350</integer>
-    <integer name="config_appsCustomizeZoomOutTime">600</integer>
+    <integer name="config_appsCustomizeZoomInTime">35</integer>
+    <integer name="config_appsCustomizeZoomOutTime">60</integer>
     <integer name="config_appsCustomizeZoomScaleFactor">7</integer>
-    <integer name="config_appsCustomizeFadeInTime">250</integer>
-    <integer name="config_appsCustomizeFadeOutTime">200</integer>
-    <integer name="config_appsCustomizeWorkspaceShrinkTime">300</integer>
-    <integer name="config_appsCustomizeWorkspaceAnimationStagger">40</integer>
-    <integer name="config_workspaceAppsCustomizeAnimationStagger">100</integer>
+    <integer name="config_appsCustomizeFadeInTime">25</integer>
+    <integer name="config_appsCustomizeFadeOutTime">20</integer>
+    <integer name="config_appsCustomizeWorkspaceShrinkTime">30</integer>
+    <integer name="config_appsCustomizeWorkspaceAnimationStagger">4</integer>
+    <integer name="config_workspaceAppsCustomizeAnimationStagger">10</integer>
 
     <!-- Tab transition animation duration -->
     <integer name="config_tabTransitionDuration">250</integer>

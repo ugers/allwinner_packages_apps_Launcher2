@@ -59,7 +59,7 @@ public abstract class PagedView extends ViewGroup implements ViewGroup.OnHierarc
     private static final int MIN_LENGTH_FOR_FLING = 25;
 
     protected static final int PAGE_SNAP_ANIMATION_DURATION = 550;
-    protected static final int MAX_PAGE_SNAP_DURATION = 750;
+    protected static final int MAX_PAGE_SNAP_DURATION = 350;
     protected static final int SLOW_PAGE_SNAP_ANIMATION_DURATION = 950;
     protected static final float NANOTIME_DIV = 1000000000.0f;
 

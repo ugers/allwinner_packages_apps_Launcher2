@@ -305,7 +305,7 @@ public final class Launcher extends Activity
     private Rect mRectForFolderAnimation = new Rect();
 
     private BubbleTextView mWaitingForResume;
-
+    
     private HideFromAccessibilityHelper mHideFromAccessibilityHelper
         = new HideFromAccessibilityHelper();
 
@@ -351,7 +351,7 @@ public final class Launcher extends Activity
                     .penaltyDeath()
                     .build());
         }
-
+        	
         super.onCreate(savedInstanceState);
         LauncherApplication app = ((LauncherApplication)getApplication());
         mSharedPrefs = getSharedPreferences(LauncherApplication.getSharedPreferencesKey(),
@@ -1523,7 +1523,7 @@ public final class Launcher extends Activity
 
         getContentResolver().unregisterContentObserver(mWidgetObserver);
         unregisterReceiver(mCloseSystemDialogsReceiver);
-
+        
         mDragLayer.clearAllResizeFrames();
         ((ViewGroup) mWorkspace.getParent()).removeAllViews();
         mWorkspace.removeAllViews();
